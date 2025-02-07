@@ -13,7 +13,6 @@ var uploadRouter = require("./routes/uploads");
 var app = express();
 
 app.use(cors());
-
 // view engine setup
 app.use(cors());
 app.set("views", path.join(__dirname, "views"));
@@ -48,3 +47,5 @@ app.use(function (err, req, res, next) {
 });
 
 module.exports = app;
+module.path= path.resolve(__dirname, );
+``````````````````
